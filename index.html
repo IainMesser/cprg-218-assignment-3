@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shangri-La Beach Resort | Home Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
-    
+<!--Navigation Bar-->
+    <header>
+        <div class="logo">
+            <img src="Asset 1.png" alt="Shangri-La Resort Logo"/>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="hero">
+                <img src="couple.jpg" class="Background-image"/>
+            <div class="hero-text">
+                <h1>Shangri-La Beach Resort - Your Dream Getaway</h1>
+                <p>Escape to Paradise</p>
+                <p>Indulge in luxury and breathtaking views at Shangri-La Beach Resort.</p>
+            </div>
+        </article>
+ 
+    <section class="features">
+        <h2>Experience Unforgettable Moments</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-umbrella-beach"></i>
+                <h3>Private Beach Access</h3>
+                <p>Step onto our pristine, white-sand beach.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-swimming-pool"></i>
+                <h3>Infinity Pool</h3>
+                <p>Relax by our stunning oceanfront infinity pool.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-spa"></i>
+                <h3>World-Class Spa</h3>
+                <p>Rejuvenate your mind and body at our spa.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-utensils"></i>
+                <h3>Exquisite Dining</h3>
+                <p>Savor culinary delights at our restaurants.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="accommodations">
+        <h2>Our Luxurious Accommodations</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <img src="assets/Images/beach-huts.jpg" alt="Ocean View Deluxe Room">
+                <h3>Ocean View Deluxe Room</h3>
+                <p>Enjoy stunning ocean views from your private balcony.</p>
+                <a href="accommodations.html" class="btn">View Details</a>
+            </div>
+            <div class="room-card">
+                <img src="assets/Images/hero.jpg" alt="Beachfront Suite">
+                <h3>Beachfront Suite</h3>
+                <p>Step directly onto the sand from your spacious suite.</p>
+                <a href="accommodations.html" class="btn">View Details</a>
+            </div>
+            <div class="room-card">
+                <img src="assets/Images/resort-drone.jpg" alt="Garden View Family Room">
+                <h3>Garden View Family Room</h3>
+                <p>Perfect for families, with ample space and garden views.</p>
+                <a href="accommodations.html" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="testimonials">
+        <h2>What Our Guests Are Saying</h2>
+        <div class="testimonial-grid" id="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking."</p>
+                <cite>- Sarah M.</cite>
+            </div>
+            <div class="testimonial-card">
+                <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible."</p>
+                <cite>- John B.</cite>
+            </div>
+            <!-- Hidden testimonials -->
+            <div class="testimonial-card hidden">
+                <p>"From the moment we arrived, we felt like royalty. The staff was so welcoming, and the food was absolutely delicious!"</p>
+                <cite>- Emily R.</cite>
+            </div>
+            <div class="testimonial-card hidden">
+                <p>"The infinity pool overlooking the ocean was a dream. We spent hours just soaking in the view."</p>
+                <cite>- Mark T.</cite>
+            </div>
+            <div class="testimonial-card hidden">
+                <p>"A perfect getaway! The resort was peaceful, the beach was pristine, and the spa treatments were heavenly."</p>
+                <cite>- Laura K.</cite>
+            </div>
+            <div class="testimonial-card hidden">
+                <p>"This was our honeymoon destination, and it couldn't have been more magical. The romantic dinner on the beach was unforgettable."</p>
+                <cite>- Daniel & Jessica P.</cite>
+            </div>
+        </div>
+        <button class="btn" id="load-more">Read More Testimonials</button>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>&copy; 2025 Shangri-La Beach Resort | Cancun, Mexico</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
