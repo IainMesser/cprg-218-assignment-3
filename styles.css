@@ -220,17 +220,83 @@ nav ul li a:hover {
     background-color: #005fa3;
     color: white;
 }
- 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .features-grid, .room-grid, .testimonial-grid {
-        grid-template-columns: 1fr;
-    }
-    .feature-item, .room-card, .testimonial-card {
-        margin: 1rem 0;
-    }
-}
- 
+
+/*Room page*/
+.room-overview {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .room-overview h1 {
+    font-size: 3rem;
+    color: #325378;
+    margin-bottom: 20px;
+  }
+
+  .room-overview p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+  }
+
+  .room-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .room-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .room-text {
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .room-section h2 {
+    font-size: 2rem;
+    margin: 20px 0 10px;
+    color: #005fa3;
+  }
+
+  .room-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #444;
+  }
+
+  .room-section ul {
+    text-align: left;
+    margin: 0 auto 20px;
+    max-width: 500px;
+    padding-left: 1.2rem;
+    color: #333;
+  }
+
+  .room-section li {
+    margin-bottom: 8px;
+  }
+
+  .room-section .btn {
+    font-size: 1rem;
+    padding: 12px 30px;
+    margin-top: 10px;
+  }
+
 /* Footer */
 footer {
     background-color: #005fa3;
@@ -249,3 +315,12 @@ footer a:hover {
     text-decoration: underline;
 }
  
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .features-grid, .room-grid, .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+    .feature-item, .room-card, .testimonial-card {
+        margin: 1rem 0;
+    }
+}
