@@ -78,7 +78,7 @@ nav ul li a:hover {
 /* Features Section */
 .Experience {
     padding: 4rem 2rem;
-    background-color: #fff;
+    background-color: #f4f4f9;
 }
 .Experiences h2 {
     text-align: center;
@@ -95,7 +95,7 @@ nav ul li a:hover {
 .Experiences-item {
     text-align: center;
     padding: 2rem;
-    background-color: #f8f8f8;
+    background-color: #f4f4f9;
     border-radius: 8px;
 }
 .Experiences-item i {
@@ -131,7 +131,7 @@ nav ul li a:hover {
 .room-text {
     flex: 1;
     min-width: 250px;
-    color: #325378;;
+    color: #325378;
 }
 .room h2 {
     color: #325378;
@@ -155,13 +155,12 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 .btn:hover {
-    background-color: #005fa3;
+    background-color: #007BFF;
 }
 
 /* Testimonials Section */
 .testimonials {
     padding: 4rem 2rem;
-    background-color: #fff;
     text-align: center;
     overflow-x: hidden;
 }
@@ -201,7 +200,7 @@ nav ul li a:hover {
 
 /* Room Page */
 .room-overview {
-    background-color: #ffffff;
+    background-color: #f4f4f9;
     padding: 60px 20px;
     text-align: center;
 }
@@ -213,7 +212,7 @@ nav ul li a:hover {
 .room-overview p {
     font-size: 1.2rem;
     margin-bottom: 40px;
-    color: #555;
+    color: #333;
 }
 .room-section {
     display: flex;
@@ -247,7 +246,7 @@ nav ul li a:hover {
 .room-section p {
     font-size: 1rem;
     margin-bottom: 15px;
-    color: #444;
+    color: #333;
 }
 .room-section ul {
     text-align: left;
@@ -297,7 +296,7 @@ nav ul li a:hover {
 .dining-text ul {
     list-style: disc;
     padding-left: 20px;
-    color: #444;
+    color: #333;
     text-align: left;
 }
 .dining-text li {
@@ -318,7 +317,7 @@ nav ul li a:hover {
 /* Spa & Activities Page */
 .spa-services, .activities-excursions {
     padding: 4rem 2rem;
-    background-color: #fff;
+    background-color: #f4f4f9;
 }
 .spa-services h2, .activities-excursions h2 {
     text-align: center;
@@ -347,26 +346,10 @@ nav ul li a:hover {
     list-style-type: none;
     padding: 0;
     font-size: 1rem;
-    color: #555;
+    color: #333;
 }
 .Experiences-item li {
     margin-bottom: 10px;
-}
-
-/* Specific Button Style for Spa & Activities */
-.spa-services .btn,
-.activities-excursions .btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #005fa3;
-    color: white;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.spa-services .btn:hover,
-.activities-excursions .btn:hover {
-    background-color: #003d72;
-    transform: translateY(-2px);
 }
 
 /* Footer */
