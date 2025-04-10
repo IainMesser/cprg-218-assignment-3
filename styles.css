@@ -10,7 +10,6 @@ body {
 /* Global Headings Font */
 h1, h2, h3 {
     font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
-
 }
 
 /* Navigation Bar */
@@ -101,7 +100,7 @@ nav ul li a:hover {
 }
 .Experiences-item i {
     font-size: 2.5rem;
-    color: #00796b;
+    color: #325378;
     margin-bottom: 1rem;
 }
 
@@ -132,10 +131,15 @@ nav ul li a:hover {
 .room-text {
     flex: 1;
     min-width: 250px;
+    color: #325378;;
+}
+.room h2 {
+    color: #325378;
 }
 .room-text h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    color: #325378;
 }
 .room-text p {
     font-size: 1rem;
@@ -144,7 +148,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     padding: 10px 25px;
-    background-color: #0077cc;
+    background-color: #325378;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -162,7 +166,7 @@ nav ul li a:hover {
     overflow-x: hidden;
 }
 .testimonials h2 {
-    color: #005fa3;
+    color: #325378;
     margin-bottom: 3rem;
 }
 .testimonial-grid {
@@ -185,7 +189,7 @@ nav ul li a:hover {
 .testimonial-card cite {
     display: block;
     margin-top: 1rem;
-    color: #005fa3;
+    color: #325378;
     font-style: normal;
 }
 .testimonial-card.hidden {
@@ -238,7 +242,7 @@ nav ul li a:hover {
 .room-section h2 {
     font-size: 2rem;
     margin: 20px 0 10px;
-    color: #005fa3;
+    color: #325378;
 }
 .room-section p {
     font-size: 1rem;
@@ -286,7 +290,7 @@ nav ul li a:hover {
     text-align: center;
 }
 .dining-text h2 {
-    color: #005fa3;
+    color: #325378;
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
@@ -307,11 +311,11 @@ nav ul li a:hover {
     align-items: flex-start;
 }
 .dining-section.horizontal-images img {
-    max-width: 48%;  /* Adjusts the size of the images to be side-by-side */
-    margin: 0 10px;  /* Adds space between the images */
+    max-width: 48%;
+    margin: 0 10px;
 }
 
-/* Spa & Activities Page - Targeting elements directly */
+/* Spa & Activities Page */
 .spa-services, .activities-excursions {
     padding: 4rem 2rem;
     background-color: #fff;
@@ -336,7 +340,7 @@ nav ul li a:hover {
 }
 .Experiences-item h3 {
     font-size: 1.8rem;
-    color: #00796b;
+    color: #325378;
     margin-bottom: 1rem;
 }
 .Experiences-item ul {
@@ -361,171 +365,13 @@ nav ul li a:hover {
 }
 .spa-services .btn:hover,
 .activities-excursions .btn:hover {
-    background-color: #005fa3;
-    color: white;
-    transform: translateY(-2px);  /* Slightly lifts the button on hover */
+    background-color: #003d72;
+    transform: translateY(-2px);
 }
-
-/* Activities & Excursions Section */
-.activities-excursions {
-    text-align: center;
-}
-
-.activities-excursions h2 {
-    color: #325378;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
-.activities-excursions p {
-    color: #555;
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.activities-item h3 {
-    font-size: 1.8rem;
-    color: #325378;
-    font-weight: 600;
-}
-
-.activities-item p {
-    font-size: 1rem;
-    color: #777;
-}
-
-.activities-excursions ul,
-.activities-item ul {
-    list-style-type: none;
-}
-
-/* Media Queries for Mobile */
-@media (max-width: 768px) {
-    .activities-excursions h2 {
-        font-size: 2rem;
-    }
-
-    .activities-excursions p {
-        font-size: 1rem;
-    }
-
-    .activities-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .activities-item {
-        margin-bottom: 20px;
-    }
-}
-
-/* Booking Page Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-}
-
-.booking-page {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.booking-container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.booking-container h2 {
-    color: #325378;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.booking-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.form-group label {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 8px;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-    border-color: #325378;
-    outline: none;
-}
-
-textarea {
-    height: 120px;
-}
-
-.btn-submit {
-    padding: 12px 25px;
-    background-color: #005fa3;
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-submit:hover {
-    background-color: #007bff;
-}
-
-/* Responsive Design for Mobile */
-@media (max-width: 768px) {
-    .booking-container {
-        padding: 20px;
-    }
-
-    .booking-container h2 {
-        font-size: 2rem;
-    }
-
-    .booking-form {
-        gap: 15px;
-    }
-
-    .form-group label {
-        font-size: 1rem;
-    }
-}
-
 
 /* Footer */
 footer {
-    background-color: #005fa3;
+    background-color: #325378;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -552,7 +398,7 @@ footer a:hover {
         align-items: center;
     }
     .dining-section.horizontal-images img {
-        max-width: 90%;  /* Reduces the image size for smaller screens */
+        max-width: 90%;
         margin: 20px 0;
     }
 }
