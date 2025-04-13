@@ -409,6 +409,42 @@ nav ul li a:hover {
     background-color: #007BFF;
   }
 
+/*Weather Widget*/
+.weather-widget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    color: #fff;
+    text-align: center;
+  
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: #325378; 
+    border: 1px solid #1b4d70; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  .weather-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .weather-temp {
+    font-weight: 600;
+    margin: 0;
+  } 
+  .weather-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.85rem;
+  }  
+
 /* Footer */
 footer {
     background-color: #325378;
