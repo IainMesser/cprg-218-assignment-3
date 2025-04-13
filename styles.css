@@ -1,4 +1,4 @@
-/* Global Styles */
+/* General Styles */
 body {
     margin: 0;
     font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
 }
 
-/* Global Headings Font */
+/* General Headings Font */
 h1, h2, h3 {
     font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
 }
@@ -186,16 +186,12 @@ nav ul li a:hover {
     scroll-snap-align: start;
 }
 .testimonial-card cite {
-    display: block;
     margin-top: 1rem;
     color: #325378;
     font-style: normal;
 }
 .testimonial-card.hidden {
     display: none;
-}
-.testimonial-card.fade-in {
-    animation: fadeIn 0.5s ease-in;
 }
 
 /* Room Page */
@@ -264,7 +260,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-/* Dining Page Adjustments */
+/* Dining Page */
 .dining-options {
     padding: 40px 20px;
     text-align: center;
@@ -301,18 +297,7 @@ nav ul li a:hover {
 }
 .dining-text li {
     margin-bottom: 8px;
-}
-
-/* New styles for image layout */
-.dining-section.horizontal-images {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.dining-section.horizontal-images img {
-    max-width: 48%;
-    margin: 0 10px;
-}
+}   
 
 /* Spa & Activities Page */
 .spa-services, .activities-excursions {
